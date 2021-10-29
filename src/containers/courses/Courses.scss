@@ -1,0 +1,90 @@
+@import "../../_globalColor";
+
+#courses {
+  background-color: $background;
+}
+
+.container-heading {
+  font-size: 1.2rem;
+  margin: 30px 0 20px 0;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto !important;
+  width: 70px !important;
+}
+
+.course-name {
+  color: $titleColor;
+  background: transparent;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  margin: 15px 0 30px 0;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 1.5rem;
+  border-radius: 3px;
+  border: 1px solid $lightBorder1;
+  justify-content: center;
+  height: 11.5em;
+  width: 13.5em;
+  margin: 0.5rem;
+}
+
+.course-detail {
+  text-align: center;
+}
+.course-card-light:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+.course-card-dark:hover {
+  box-shadow: 0px 20px 30px -10px $darkBoxShadow;
+}
+.course-image {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.courses-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 0 3rem 0;
+}
+
+.course-card .course-card-footer span.course-tag {
+  background: white;
+  color: black;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0 0.75em;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.course-card-footer {
+  color: black;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0.5rem 0.5rem 0;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+}

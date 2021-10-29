@@ -1,0 +1,11 @@
+@import "../_globalColor";
+
+.main {
+  background-color: $background;
+  color: white;
+  transition: "0.1s";
+}
+
+.main-content {
+  padding: 15px 25px 15px 25px;
+}

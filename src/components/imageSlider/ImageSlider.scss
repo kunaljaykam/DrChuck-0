@@ -1,0 +1,7 @@
+// styles for ImageSlider
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+// to hide icons(play, pause, fullscreen)
+.image-gallery-icon {
+  display: none;
+}
