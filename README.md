@@ -1,6 +1,6 @@
 # Dr Chuck
 
-Just change the src/DrChuck.js to make any update to the website. Customize portfolio theme by using your own color scheme globally in the src/\_globalColor.scss file.
+Just change the src/DrChuck.js to make any update to the website. Customize theme by using your own color scheme globally in the src/\_globalColor.scss file.
 
 ## Installation
 
