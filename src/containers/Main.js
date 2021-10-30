@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../components/header/Header";
 import ImageSlider from '../components/imageSlider/ImageSlider';
+import Videos from "../components/videoShowcase/VideoShowcase";
+
 // import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import Courses from "./courses/Courses";
@@ -11,7 +13,6 @@ import Courses from "./courses/Courses";
 // import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 // import Profile from "./profile/Profile";
-import Videos from '../components/videoShowcase/VideoShowcase'
 
 import "./Main.scss";
 
