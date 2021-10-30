@@ -13,4 +13,10 @@ $ npm start
 
 ## Usage
 
-will update this soon
+Create .env file
+Add Your Github Token & Your Github Username
+
+## Work In Progress(WIP)
+
+For some reason netlify servers were messing with images, Therefore As a temporary fix, I decided to host images on cloudinary.
+Its working well for now.
