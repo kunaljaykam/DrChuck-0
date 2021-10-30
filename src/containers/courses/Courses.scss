@@ -56,7 +56,9 @@
 .courses-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 0 3rem 0;
+  gap: 1rem;
+  justify-content: center;
+  justify-items: center;
 }
 
 .course-card .course-card-footer span.course-tag {

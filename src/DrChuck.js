@@ -14,23 +14,31 @@ const logo = {
 
 // update image-slider
 
-const imageSlider = [
-  {
-    name: "tsugi",
-    original: require("./assets/images/tsugi-cover.jpeg"),
-    caption: "caption"
-  },
-  {
-    name: "tsugi",
-    original: require("./assets/images/sakai-cover.jpeg"),
-    caption: "caption"
-  },
-  {
-    name: "tsugi",
-    original: require("./assets/images/learner-privacy-cover.jpeg"),
-    caption: "caption"
-  }
-];
+// const imageSlider = [
+//   {
+//     name: "tsugi",
+//     original: require("./assets/images/tsugi-cover.jpeg"),
+//     caption: "caption"
+//   },
+//   {
+//     name: "tsugi",
+//     original: require("./assets/images/sakai-cover.jpeg"),
+//     caption: "caption"
+//   },
+//   {
+//     name: "tsugi",
+//     original: require("./assets/images/learner-privacy-cover.jpeg"),
+//     caption: "caption"
+//   }
+// ];
+
+
+const imageSlider = {
+  first: require("./assets/images/tsugi-cover.jpeg"), // for better result use media query
+  second: require("./assets/images/sakai-cover.jpeg"), // need to re-do sakai logo(edges)
+  third: require("./assets/images/learner-privacy-cover.jpeg")
+};
+
 
 
 
