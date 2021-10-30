@@ -47,13 +47,13 @@ export class ImageSlider extends Component {
       <div>
         <Carousel autoPlay={true} infiniteLoop showThumbs={false}>
           <div>
-            <img src={imageSlider.first} alt="Charles Severance" />
+            <img src={imageSlider.tsugi} alt="Charles Severance" />
           </div>
           <div>
-            <img src={imageSlider.second} alt="Charles Severance" />
+            <img src={imageSlider.learner} alt="Charles Severance" />
           </div>
           <div>
-            <img src={imageSlider.third} alt="Charles Severance" />
+            <img src={imageSlider.sakai} alt="Charles Severance" />
           </div>
         </Carousel>
       </div>

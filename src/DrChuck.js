@@ -34,9 +34,10 @@ const logo = {
 
 
 const imageSlider = {
-  first: require("./assets/images/tsugi-cover.jpeg"), // for better result use media query
-  second: require("./assets/images/sakai-cover.jpeg"), // need to re-do sakai logo(edges)
-  third: require("./assets/images/learner-privacy-cover.jpeg")
+  tsugi: "https://res.cloudinary.com/dpmohmxdf/image/upload/v1635621819/tsugi-cover_cvkcnd.jpg", // for better result use media query
+    leaner: "https://res.cloudinary.com/dpmohmxdf/image/upload/v1635621837/learner-privacy-cover_guoqdf.jpg",
+
+  sakai: "https://res.cloudinary.com/dpmohmxdf/image/upload/v1635621827/sakai-cover_vclbvw.jpg", // need to re-do sakai logo(edges)
 };
 
 
