@@ -35,7 +35,7 @@ const logo = {
 
 const imageSlider = {
   tsugi: "https://res.cloudinary.com/dpmohmxdf/image/upload/v1635621819/tsugi-cover_cvkcnd.jpg", // for better result use media query
-    leaner: "https://res.cloudinary.com/dpmohmxdf/image/upload/v1635621837/learner-privacy-cover_guoqdf.jpg",
+  learner: "https://res.cloudinary.com/dpmohmxdf/image/upload/v1635621837/learner-privacy-cover_guoqdf.jpg",
 
   sakai: "https://res.cloudinary.com/dpmohmxdf/image/upload/v1635621827/sakai-cover_vclbvw.jpg", // need to re-do sakai logo(edges)
 };

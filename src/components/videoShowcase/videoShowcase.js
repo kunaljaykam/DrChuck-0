@@ -1,32 +1,69 @@
 
 
-import React, {Component} from "react";
-import Carousel from "react-elastic-carousel";
+// import React from "react";
+// import ImageGallery from "react-image-gallery";
+// import "./ImageSlider.scss";
 
-class VideoShowcase extends Component {
-  state = {
-    items: [
-      {id: 1, title: "item #1"},
-      {id: 2, title: "item #2"},
-      {id: 3, title: "item #3"},
-      {id: 4, title: "item #4"},
-      {id: 5, title: "item #5"}
-    ]
-  };
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import {Carousel} from "react-responsive-carousel";
+import {imageSlider} from "../../DrChuck";
 
+// // for testing purposes
+
+// // const image = [
+// //   {
+// //     original: 'https://picsum.photos/id/1018/1000/600/',  // original image
+// //     thumbnail: 'https://picsum.photos/id/1018/250/150/',  // thumbnail image
+// //   },
+// //   {
+// //     original: 'https://picsum.photos/id/1015/1000/600/',  // original image
+// //     thumbnail: 'https://picsum.photos/id/1015/250/150/',  // thumbnail image
+
+// //   }
+// // ]
+
+// class ImageSlider extends React.Component {
+//   render() {
+//     return (
+
+      
+//       // for more customization visit https://github.com/xiaolin/react-image-gallery
+//       <ImageGallery
+//         autoPlay
+//         slideInterval={4000}
+//         slideDuration={5}
+//         items={imageSlider}
+//       />
+//     );
+//   }
+// }
+
+// export default ImageSlider;
+
+
+import React, { Component } from 'react'
+
+export class VideoShowcase extends Component {
   render() {
-    const {items} = this.state;
     return (
-      <Carousel>
-        {items.map(item => (
-          <div key={item.id}>{item.title}</div>
-        ))}
-      </Carousel>
+      <div>
+        <Carousel autoPlay={true} infiniteLoop showThumbs={false}>
+          <div>
+            <img src={imageSlider.tsugi} alt="Charles Severance" />
+          </div>
+          <div>
+            <img src={imageSlider.learner} alt="Charles Severance" />
+          </div>
+          <div>
+            <img src={imageSlider.sakai} alt="Charles Severance" />
+          </div>
+        </Carousel>
+      </div>
     );
   }
-
-
 }
+
+
 
 
 export default VideoShowcase;
