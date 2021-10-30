@@ -1,61 +1,48 @@
 
+import React, {Component} from "react";
 
-// import React from "react";
-// import ImageGallery from "react-image-gallery";
-// import "./ImageSlider.scss";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import {Carousel} from "react-responsive-carousel";
-import {imageSlider} from "../../DrChuck";
-
-// // for testing purposes
-
-// // const image = [
-// //   {
-// //     original: 'https://picsum.photos/id/1018/1000/600/',  // original image
-// //     thumbnail: 'https://picsum.photos/id/1018/250/150/',  // thumbnail image
-// //   },
-// //   {
-// //     original: 'https://picsum.photos/id/1015/1000/600/',  // original image
-// //     thumbnail: 'https://picsum.photos/id/1015/250/150/',  // thumbnail image
-
-// //   }
-// // ]
-
-// class ImageSlider extends React.Component {
-//   render() {
-//     return (
-
-      
-//       // for more customization visit https://github.com/xiaolin/react-image-gallery
-//       <ImageGallery
-//         autoPlay
-//         slideInterval={4000}
-//         slideDuration={5}
-//         items={imageSlider}
-//       />
-//     );
-//   }
-// }
-
-// export default ImageSlider;
+import {videos} from "../../DrChuck";
+import ReactPlayer from "react-player";
+import './VideoShowcase.scss'
 
 
-import React, { Component } from 'react'
 
 export class VideoShowcase extends Component {
   render() {
     return (
       <div>
-        <Carousel autoPlay={true} infiniteLoop showThumbs={false}>
+        <Carousel
+          autoPlay={true}
+          infiniteLoop
+          centerMode={true}
+          showThumbs={true}
+        >
           <div>
-            <img src={imageSlider.tsugi} alt="Charles Severance" />
+            <ReactPlayer
+              url={videos.urlOne}
+              width="100%"
+              height="13em"
+              controls={false}
+            />
           </div>
           <div>
-            <img src={imageSlider.learner} alt="Charles Severance" />
+            <ReactPlayer
+              url={videos.urlTwo}
+              width="100%"
+              height="13em"
+              controls={false}
+            />
           </div>
           <div>
-            <img src={imageSlider.sakai} alt="Charles Severance" />
+            <ReactPlayer
+              url={videos.urlThree}
+              width="100%"
+              height="13em"
+              controls={false}
+            />
           </div>
         </Carousel>
       </div>

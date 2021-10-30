@@ -101,6 +101,29 @@ const courses = {
 
 
 
+// Books Section
+
+const books = {
+  title: "Books",
+
+}
+
+// const videos = {
+//   url: [
+//     "https://vimeo.com/17207620",             // will map out the video url
+//     "https://vimeo.com/17207620",        
+
+//   ]
+// };
+
+
+const videos = {
+  urlOne: "https://vimeo.com/17207620",
+  urlTwo: "https://www.youtube.com/watch?v=BVKpW02hsrU",
+  urlThree: "https://www.youtube.com/watch?v=sa2WsgCvn7c",
+  urlFour: "https://vimeo.com/17213019"
+};
+  
 
 
 // Social Media Links
@@ -218,6 +241,8 @@ const twitterDetails = {
 export {
   logo,
   imageSlider,
+  books,
+  videos,
   socialMediaLinks,
   openSource,
   courses,

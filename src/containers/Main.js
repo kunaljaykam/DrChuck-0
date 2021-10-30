@@ -11,7 +11,7 @@ import Courses from "./courses/Courses";
 // import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 // import Profile from "./profile/Profile";
-import Vidoes from './videoShowcase/VideoShowcase'
+import Videos from '../components/videoShowcase/VideoShowcase'
 
 import "./Main.scss";
 
@@ -31,7 +31,7 @@ const Main = () => {
 
         <Twitter />
 
-        <Vidoes />
+        <Videos />
         {/*
         <Education />
         <WorkExperience />

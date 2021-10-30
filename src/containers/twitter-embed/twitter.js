@@ -33,12 +33,12 @@ export default function Twitter() {
             <TwitterTimelineEmbed
               sourceType="profile"
               screenName={twitterDetails.userName}
-              options={{height: 700, width:{widthScreen}}}
-              autoFont
+              options={{ height: 500, width: {widthScreen}}}
               placeholder={renderLoader()}
               autoHeight={false}
               borderColor="#fff"
-              key={""}
+            
+              theme={"dark" }
               noFooter={true}
               onload={timeOut()}
             />
