@@ -20,3 +20,17 @@ Add Your Github Token & Your Github Username
 
 For some reason netlify servers were messing with images, Therefore As a temporary fix, I decided to host images on cloudinary.
 Its working well for now.
+
+## To Do
+
+Add router for pages And Design Pages(about)
+
+Add Book Section
+
+Improve video showcase(WIP)
+
+Integrate blog with wordpress (Revue Recommended)
+
+Add Footer(WIP)
+
+Add Google Translate/or something better

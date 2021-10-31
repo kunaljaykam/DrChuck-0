@@ -38,7 +38,9 @@ function Header() {
         </li>
 
         <li>
-          <a href="#about">About</a>
+          <a href="#about">About <br/><span className="about-span">Charles Severance</span></a>
+        
+            
         </li>
       </ul>
     </header>

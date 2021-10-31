@@ -60,7 +60,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: $textColorDark;
+  background: white;
   display: block;
   height: 2px;
   position: relative;
@@ -70,7 +70,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: $iconBackground;
+  background: white;
   content: "";
   display: block;
   height: 100%;
@@ -132,11 +132,23 @@
   .header .menu-icon {
     display: none;
   }
+  .about-span {
+    float: right;
+    margin: 0 0px 0 -26px;
+    font-size: 10px;
+    font-weight: lighter;
+  }
 }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
     padding: 15px 25px;
+  }
+  .about-span {
+    // need to change this
+    margin: -10px 0px 0 -26px;
+    font-size: 10px;
+    font-weight: lighter;
   }
 }
 
@@ -146,4 +158,10 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 10px 10px !important;
+}
+
+.about-span {
+  margin: 0 0px 0 -20px;
+  font-size: 10px;
+  font-weight: lighter;
 }
